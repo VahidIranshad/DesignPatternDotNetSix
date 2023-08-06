@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Singleton
+﻿namespace Singleton
 {
     internal class Calculator
     {
@@ -42,7 +36,7 @@ namespace Singleton
                 return;
             }
             IsCalculating = true;
-            Console.WriteLine("Boiling...");
+            Console.WriteLine("start calculating...");
             IsCalculating = false;
         }
 
