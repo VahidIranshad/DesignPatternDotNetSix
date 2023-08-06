@@ -35,8 +35,8 @@
                 Console.WriteLine("is calculating...");
                 return;
             }
-            Console.WriteLine("start calculating...");
             IsCalculating = true;
+            Console.WriteLine("start calculating...");
             IsCalculating = false;
             Console.WriteLine("end calculating...");
         }
