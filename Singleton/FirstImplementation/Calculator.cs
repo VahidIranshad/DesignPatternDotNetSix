@@ -1,8 +1,8 @@
-﻿namespace Singleton
+﻿namespace Singleton.FirstImplementation
 {
     internal class Calculator
     {
-        private static object syncRoot = new Object();
+        private static object syncRoot = new object();
 
         private bool IsCalculating;
         private static Calculator _Instance;
@@ -35,9 +35,10 @@
                 Console.WriteLine("is calculating...");
                 return;
             }
-            IsCalculating = true;
             Console.WriteLine("start calculating...");
+            IsCalculating = true;
             IsCalculating = false;
+            Console.WriteLine("end calculating...");
         }
 
     }
