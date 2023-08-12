@@ -4,7 +4,6 @@ using Builder.FirstImplementation;
 
 Builder.FirstImplementation.Builder builder;
 
-// Create
 var construct = new Builder.FirstImplementation.Construct();
 
 builder = new HouseLoanRequest();
@@ -15,5 +14,4 @@ builder = new CarLoanRequest();
 construct.Assemble(builder);
 Console.WriteLine(builder.LoanRequest.ToString());
 
-// Wait for user
 Console.ReadKey();
