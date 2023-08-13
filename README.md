@@ -16,6 +16,7 @@ Object Pool
 
 Prototype
 
+
 Structural:
 
 Adapter
@@ -25,6 +26,7 @@ Composite
 Facade
 
 Proxy
+
 
 
 Behavioral:
