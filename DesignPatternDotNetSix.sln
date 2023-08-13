@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{342E2915-B52F-4AFE-9131-3E586CAE7F4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composit", "Composit\Composit.csproj", "{B26B18AB-7842-45AF-9DFA-69D19A522D3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composit", "Composit\Composit.csproj", "{B26B18AB-7842-45AF-9DFA-69D19A522D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{17C74B66-EB2C-408C-9126-F18A5F3132B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B26B18AB-7842-45AF-9DFA-69D19A522D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B26B18AB-7842-45AF-9DFA-69D19A522D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B26B18AB-7842-45AF-9DFA-69D19A522D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C74B66-EB2C-408C-9126-F18A5F3132B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C74B66-EB2C-408C-9126-F18A5F3132B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C74B66-EB2C-408C-9126-F18A5F3132B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C74B66-EB2C-408C-9126-F18A5F3132B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
