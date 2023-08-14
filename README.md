@@ -28,6 +28,9 @@ Facade
 
 Proxy
 
+Bridge
+
+Decorator
 
 
 Behavioral:
