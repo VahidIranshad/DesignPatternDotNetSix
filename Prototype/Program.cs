@@ -21,3 +21,4 @@ carCloneSecondImplementation.Model = "4";
 carSecondImplementation.GetInfo();
 carCloneSecondImplementation.GetInfo();
 Console.WriteLine("end SecondImplementation");
+Console.ReadKey();
