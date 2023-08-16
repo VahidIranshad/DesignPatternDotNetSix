@@ -32,5 +32,7 @@ Bridge
 
 Decorator
 
+Flyweight
+
 
 Behavioral:
