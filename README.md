@@ -36,3 +36,7 @@ Flyweight
 
 
 Behavioral:
+
+Iterator
+
+Memento
