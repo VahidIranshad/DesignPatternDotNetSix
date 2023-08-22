@@ -40,3 +40,11 @@ Behavioral:
 Iterator
 
 Memento
+
+Mediator
+
+Observer
+
+TemplateMethod
+
+State
